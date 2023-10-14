@@ -1,3 +1,7 @@
+// Prerequisite:
+//  - Go to the BNC transaction page
+// Save time by adding the script as a snippet:
+//  - F12 > Sources > Snippets > New Snippet
 const getTransactions = () => {
   const $transactions = ".transactions-history__row";
   const $date = ".transactions-table__date";
